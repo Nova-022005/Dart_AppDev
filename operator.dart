@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main(){
   //? normal oprartor
 
@@ -19,5 +21,23 @@ void main(){
   print(num0);// 20;
   num0=1;
   print(num0);//1
+
+  //! ________NULL Safety Operator
+
+  //   ?--> nullanle type
+  //   !--> Force non-null
+  //  ?? → Default fallback
+  //* ??= → Assign if null
+
+  //!________Cas
+
+
+
+
+  //?___________Type Casting
+  double a=90.77;
+
+  int c=a.toInt();
+  String s=c.toString();
 
 }
