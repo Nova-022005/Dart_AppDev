@@ -41,7 +41,20 @@ void main(){
   num value=10;
   num value1=2.3;
 
+
+  print("$age $price $value1 $value" );
+
+  // price=age as double;
+  print(price);
+  price=value.toDouble();
+  // print(price);
+
   
+  //?_dynamic
+  dynamic data=101;
+  print(data);// interger
+  data="Data";
+  print(data);// String
 
 
 }
