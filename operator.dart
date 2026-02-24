@@ -1,4 +1,4 @@
-import 'dart:ffi';
+// import 'dart:ffi';
 
 void main(){
   //? normal oprartor
@@ -38,6 +38,6 @@ void main(){
   double a=90.77;
 
   int c=a.toInt();
-  String s=c.toString();
+  String s =c.toString();
 
 }
